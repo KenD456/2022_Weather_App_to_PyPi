@@ -1,0 +1,21 @@
+
+"""
+https://openweathermap.org/api
+5 Day / 3 Hour Forcast
+
+example:
+Lat and Log:
+https://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=6f33f9b058812fbb61be38c571a0d0a0
+
+Country:
+https://api.openweathermap.org/data/2.5/forecast?q=Madrid&appid=6f33f9b058812fbb61be38c571a0d0a0
+
+use http://jsonviewer.stack.hu/ to test
+"""
+
+# city = "Madrid"
+# apikey = "6f33f9b058812fbb61be38c571a0d0a0"
+# url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api}"
+#
+# r = requests.get(url)
+# print(r.json()) # to see the dictionary data
